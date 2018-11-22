@@ -3,7 +3,7 @@ import React from 'react';
 class CopyrightUpdate extends React.Component {
   render() {
     return (
-      <div>This is so CopyrightUpdate!</div>
+      &copy; document.write(Date().split(' ')[3])
     );
   }
 }
