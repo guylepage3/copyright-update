@@ -1,24 +1,54 @@
 {
   "name": "copyright-update",
-  "version": "1.0.0",
-  "description": "A dead simple copyright year update package",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "1.0.1",
+  "description": "A dead simple copyright year update React component",
+  "keywords": [
+    "copyright",
+    "year",
+    "update",
+    "react"
+  ],
+  "maintainers": [
+    {
+      "name": "Guy Lepage",
+      "email": "guylepage3@gmail.com",
+      "url": "https://lepage.cc"
+    }
+  ],
+  "contributors": {
+    "url": "https://github.com/universelabs/meta/graphs/contributors"
   },
+  "bugs": {
+    "url": "https://github.com/guylepage3/copyright-update/issues"
+  },
+  "author": {
+    "name": "Guy Lepage",
+    "email": "guylepage3@gmail.com"
+  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guylepage3/copyright-update.git"
   },
-  "keywords": [
-    "copyright",
-    "year",
-    "update"
-  ],
-  "author": "Guy Lepage",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/guylepage3/copyright-update/issues"
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
   },
-  "homepage": "https://github.com/guylepage3/copyright-update"
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "webpack": "^2.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  }
 }
