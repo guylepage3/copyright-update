@@ -2,8 +2,10 @@ import React from 'react';
 
 class CopyrightUpdate extends React.Component {
   render() {
-    return (
-      &copy; document.write(Date().split(' ')[3])
+    return React.createElement(
+      "div",
+      null,
+      new Date().getFullYear()
     );
   }
 }
