@@ -1,6 +1,6 @@
 {
   "name": "copyright-update",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A dead simple copyright year update React component",
   "keywords": [
     "copyright",
@@ -8,13 +8,11 @@
     "update",
     "react"
   ],
-  "maintainers": [
-    {
-      "name": "Guy Lepage",
-      "email": "guylepage3@gmail.com",
-      "url": "https://lepage.cc"
-    }
-  ],
+  "maintainers": {
+    "name": "Guy Lepage",
+    "email": "guylepage3@gmail.com",
+    "url": "https://lepage.cc"
+  },
   "contributors": {
     "url": "https://github.com/universelabs/meta/graphs/contributors"
   },
