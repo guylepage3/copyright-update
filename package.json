@@ -35,18 +35,18 @@
     "build": "webpack"
   },
   "peerDependencies": {
-    "react": "^15.5.4"
+    "react": "^16.6.3"
   },
   "dependencies": {
-    "react": "^15.6.2",
-    "webpack": "^2.7.0"
+    "react": "^16.6.3",
+    "webpack": "^4.26.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.24.1",
-    "babel-loader": "^7.1.5",
-    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.5.1"
+    "babel-preset-env": "^1.7.0"
   }
 }
