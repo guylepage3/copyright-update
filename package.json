@@ -1,6 +1,6 @@
 {
   "name": "copyright-update",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A dead simple copyright year update React component",
   "keywords": [
     "copyright",
@@ -28,7 +28,7 @@
     "type": "git",
     "url": "git+https://github.com/guylepage3/copyright-update.git"
   },
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
