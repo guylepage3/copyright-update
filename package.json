@@ -1,6 +1,6 @@
 {
   "name": "copyright-update",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A dead simple copyright year update React component",
   "keywords": [
     "copyright",
@@ -38,8 +38,8 @@
     "react": "^15.5.4"
   },
   "dependencies": {
-    "react": "^15.5.4",
-    "webpack": "^2.6.1"
+    "react": "^15.6.2",
+    "webpack": "^2.7.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
