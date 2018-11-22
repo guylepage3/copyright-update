@@ -1,0 +1,24 @@
+{
+  "name": "copyright-update",
+  "version": "1.0.0",
+  "description": "A dead simple copyright year update package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guylepage3/copyright-update.git"
+  },
+  "keywords": [
+    "copyright",
+    "year",
+    "update"
+  ],
+  "author": "Guy Lepage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guylepage3/copyright-update/issues"
+  },
+  "homepage": "https://github.com/guylepage3/copyright-update"
+}
