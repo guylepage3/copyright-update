@@ -1,4 +1,6 @@
-var path = require('path','webpack-node-externals');
+var path = require('path');
+var nodeExternals = require('webpack-node-externals');
+
 module.exports = {
   entry: './src/index.js',
   output: {
