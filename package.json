@@ -1,6 +1,6 @@
 {
   "name": "copyright-update",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "description": "A simple Reactjs component that updates copyright year",
   "keywords": [
     "copyright",
@@ -14,7 +14,7 @@
     "url": "https://lepage.cc"
   },
   "contributors": {
-    "url": "https://github.com/universelabs/meta/graphs/contributors"
+    "url": "https://github.com/guylepage3/copyright-update/graphs/contributors"
   },
   "bugs": {
     "url": "https://github.com/guylepage3/copyright-update/issues"
