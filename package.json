@@ -1,6 +1,6 @@
 {
   "name": "copyright-update",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "A simple Reactjs component that updates copyright year",
   "keywords": [
     "copyright",
@@ -47,5 +47,8 @@
     "babel-preset-env": "^1.5.1",
     "webpack-cli": "^3.1.2",
     "webpack-node-externals": "^1.7.2"
-  }
+  },
+  "files": [
+    "src/"
+  ]
 }
