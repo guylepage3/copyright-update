@@ -1,7 +1,7 @@
 {
   "name": "copyright-update",
-  "version": "1.1.0",
-  "description": "A dead simple copyright year update React component",
+  "version": "1.1.1",
+  "description": "A simple Reactjs component that updates copyright year",
   "keywords": [
     "copyright",
     "year",
