@@ -25,9 +25,9 @@ module.exports = {
   },
   target: 'node',
   externals: [
+    nodeExternals(),
     {
-      react: 'commonjs react',
-    },
-    subtract: [nodeExternals()]
+      'react': 'commonjs react'
+    }
   ]
 };
