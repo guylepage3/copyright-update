@@ -65,19 +65,21 @@ npm i copyright-update
 In the example below, we are going to `import` the `copyright-update` component into a Footer.
 
 ```
-import CopyrightUpdate from 'copyright-update';
+import React, { Component } from 'react';
 
-class Footer extends Component {
+class CopyrightUpdate extends Component {
   render() {
     return (
-      <div>
-          Company Inc. <CopyrightUpdate />
+      <div 
+        className={`copyright-update ${this.props.className}`}
+        style={this.props.style}
+        >
+        &copy; {new Date().getFullYear()}
       </div>
     );
   }
 }
-
-export default Footer;
+export default CopyrightUpdate;
 ```
 
 Now simply style the component using the provided CSS classname `.copyright-update`.

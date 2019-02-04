@@ -7,9 +7,7 @@ class CopyrightUpdate extends Component {
         className={`copyright-update ${this.props.className}`}
         style={this.props.style}
         >
-        <span>
         &copy; {new Date().getFullYear()}
-        </span>
       </div>
     );
   }
