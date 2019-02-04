@@ -5,7 +5,7 @@ class CopyrightUpdate extends Component {
     return React.createElement(
       "div",
       {className: 'copyright-update'},
-      this.props.style,
+      {style: this.props.style},
       null,
       '\u00A9 ',
       new Date().getFullYear()
