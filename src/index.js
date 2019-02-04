@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 
 class CopyrightUpdate extends Component {
   render() {
-    return React.createElement(
-      "div",
-      {className: 'copyright-update'},
-      {style: this.props.style},
-      null,
-      '\u00A9 ',
-      new Date().getFullYear()
+    return (
+      <div 
+        className={`copyright-update ${this.props.className}`}
+        style={this.props.style}
+        >
+        <span>
+        &copy; {new Date().getFullYear()}
+        </span>
+      </div>
     );
   }
 }
