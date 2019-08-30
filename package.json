@@ -1,6 +1,6 @@
 {
   "name": "copyright-update",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "A simple Reactjs component that updates copyright year",
   "keywords": [
     "copyright",
@@ -32,7 +32,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
-    "build": "webpack --mode none"
+    "build": "webpack --mode=none"
   },
   "dependencies": {
     "react": "^16.9.0"
