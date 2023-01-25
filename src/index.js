@@ -1,15 +1,11 @@
-import React, { Component } from 'react';
+import React from "react";
 
-class CopyrightUpdate extends Component {
-  render() {
-    return (
-      <div 
-        className={`copyright-update ${this.props.className}`}
-        style={this.props.style}
-        >
-        &copy; {new Date().getFullYear()}
-      </div>
-    );
-  }
+const CopyrightUpdate = () => {
+  return (
+    <div className="copyright-update">
+      &copy; {new Date().getFullYear()}
+    </div>
+  );
 }
+
 export default CopyrightUpdate;
