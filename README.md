@@ -54,52 +54,53 @@ copyright-update
 <br />
 <br />
 
-### Usage
+<div>
+  <h3>Usage</h3>
+  <p>
+    Install the package.
+  </p>
+  <pre>npm i copyright-update</pre>
+  <p>
+    In the example below, we are going to <code>import</code> the <code>copyright-update</code> component into a Footer.
+  </p>
+  <pre>import React, { Component } from 'react';
 
-Install the package.
+    class CopyrightUpdate extends Component {
+      render() {
+        return (
+          <div 
+            className={`copyright-update ${this.props.className}`}
+            style={this.props.style}
+            >
+            &copy; {new Date().getFullYear()}
+          </div>
+        );
+      }
+    }
 
-```
-npm i copyright-update
-```
-
-In the example below, we are going to `import` the `copyright-update` component into a Footer.
-
-```
-import React, { Component } from 'react';
-
-class CopyrightUpdate extends Component {
-  render() {
-    return (
-      <div 
-        className={`copyright-update ${this.props.className}`}
-        style={this.props.style}
-        >
-        &copy; {new Date().getFullYear()}
-      </div>
-    );
-  }
-}
-export default CopyrightUpdate;
-```
-
-Now simply style the component using the provided CSS classname `.copyright-update`.
-
-```
-.copyright-update {
-  display: inline-block;
-  margin-left: .5rem;
-}
-```
+    export default CopyrightUpdate;
+  </pre>
+  <p>
+    Style the component using the CSS classname <code>.copyright-update</code>.
+  </p>
+  <pre>.copyright-update {
+      display: inline-block;
+      margin-left: .5rem;
+    }</pre>
+  <p>
+    &nbsp;&nbsp;&nbsp;&nbsp;—&nbsp;&nbsp;Go to <a href="https://github.com/guylepage3/copyright-update"><code>copyright-update</code> on GitHub</a>.<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;—&nbsp;&nbsp;Go to <a href="https://www.npmjs.com/package/copyright-update"><code>copyright-update</code> on NPM</a>.<br />
+  </p>
+</div>
 <br />
+<div>
+  <h3>Quick links</h3>
+  <p>
+    &nbsp;&nbsp;&nbsp;&nbsp;—&nbsp;&nbsp;Go to <a href="https://github.com/guylepage3/copyright-update"><code>copyright-update</code> on GitHub</a>.<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;—&nbsp;&nbsp;Go to <a href="https://www.npmjs.com/package/copyright-update"><code>copyright-update</code> on NPM</a>.<br />
+  </p>
+</div>
 <br />
-
-### Quick links
-
-- Go to [`copyright-update` on GitHub](https://github.com/guylepage3/copyright-update)
-- Go to [`copyright-update` on NPM](https://www.npmjs.com/package/copyright-update)
-<br />
-<br />
-
 <div>
   <h3>Maintainers</h3>
   <p>
