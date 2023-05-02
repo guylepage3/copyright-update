@@ -23,7 +23,6 @@
 - [Usage](#usage)
 - [Quick links](#quick-links)
 - [Maintainers](#maintainers)
-- [License](#license)
 <br />
 <br />
 
@@ -101,22 +100,97 @@ Now simply style the component using the provided CSS classname `.copyright-upda
 <br />
 <br />
 
-### Maintainers
-
-**Guy Lepage**
-
-[![Follow on Twitter](https://img.shields.io/badge/Twitter-@guylepage3-blue.svg?colorA=212121&colorB=007BFF)](https://twitter.com/intent/follow?screen_name=guylepage3)
-[![Github](https://img.shields.io/badge/GitHub-guylepage3-blue.svg?colorA=212121&colorB=007BFF)](https://github.com/guylepage3)
-[![npm](https://img.shields.io/badge/npm-~guylepage3-red.svg?colorA=212121&colorB=FF0000)](https://www.npmjs.com/~guylepage3)
-[![Medium](https://img.shields.io/badge/Medium-@guylepage3-green.svg?colorA=212121&colorB=00BB00)](https://medium.com/@guylepage3)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-in/guylepage/-blue.svg?colorA=212121&colorB=007BFF)](https://www.linkedin.com/in/guylepage/)
-
-- <https://twitter.com/guylepage3>
-- <https://github.com/guylepage3>
+<div>
+  <h3>Maintainers</h3>
+  <p>
+    Repository maintained by:
+  </p>
+  <blockquote>
+    <a href="https://github.com/guylepage3">Guy Lepage</a>
+    <div align="left">
+      <a href="https://twitter.com/guylepage3">
+        <picture>
+          <source 
+            media="(prefers-color-scheme: dark)" 
+            srcset="https://ico.vercel.app/twitter/ffffff"  width="14px">
+          <img src="https://ico.vercel.app/twitter/000000"  width="14px">
+        </picture>
+      </a>
+      &nbsp;&nbsp;
+      <a href="https://www.linkedin.com/in/guylepage/">
+        <picture>
+          <source 
+            media="(prefers-color-scheme: dark)" 
+            srcset="https://ico.vercel.app/linkedin/ffffff"  width="14px">
+          <img src="https://ico.vercel.app/linkedin/000000"  width="14px">
+        </picture>
+      </a>
+      &nbsp;&nbsp;
+      <a href="https://github.com/guylepage3">
+        <picture>
+          <source 
+            media="(prefers-color-scheme: dark)" 
+            srcset="https://ico.vercel.app/github/ffffff"  width="14px">
+          <img src="https://ico.vercel.app/github/000000"  width="14px">
+        </picture>
+      </a>
+      &nbsp;&nbsp;
+      <a href="https://stackoverflow.com/users/1314487/guy-lepage">
+        <picture>
+          <source 
+            media="(prefers-color-scheme: dark)" 
+            srcset="https://ico.vercel.app/stackoverflow/ffffff"  width="14px">
+          <img src="https://ico.vercel.app/stackoverflow/000000"  width="14px">
+        </picture>
+      </a>
+      &nbsp;&nbsp;
+      <a href="https://www.npmjs.com/~guylepage3">
+        <picture>
+          <source 
+            media="(prefers-color-scheme: dark)" 
+            srcset="https://ico.vercel.app/npm/ffffff"  width="14px">
+          <img src="https://ico.vercel.app/npm/000000"  width="14px">
+        </picture>
+      </a>
+      &nbsp;&nbsp;
+      <a href="https://medium.com/@guylepage3">
+        <picture>
+          <source 
+            media="(prefers-color-scheme: dark)" 
+            srcset="https://ico.vercel.app/medium/ffffff"  width="14px">
+          <img src="https://ico.vercel.app/medium/000000"  width="14px">
+        </picture>
+      </a>
+      &nbsp;&nbsp;
+      <a href="https://bitcoin.clarkmoody.com/dashboard/">
+        <picture>
+          <source 
+            media="(prefers-color-scheme: dark)" 
+            srcset="https://ico.vercel.app/bitcoin/ffffff"  width="14px">
+          <img src="https://ico.vercel.app/bitcoin/000000"  width="14px">
+        </picture>
+      </a>
+      &nbsp;&nbsp;
+      <a href="https://www.buymeacoffee.com/guylepage3">
+        <picture>
+          <source 
+            media="(prefers-color-scheme: dark)" 
+            srcset="https://ico.vercel.app/buymeacoffee/ffffff"  width="14px">
+          <img src="https://ico.vercel.app/buymeacoffee/000000"  width="14px">
+        </picture>
+      </a>
+    </div>
+  </blockquote>
+</div>
 <br />
 <br />
-
-### License
-
-By contributing your code, you agree to license your contribution under the [
-MIT License](LICENSE).
+<br />
+<br />
+<br />
+<br />
+<br />
+<p align="left">  
+  By contributing your code, you agree to license your contribution under the 
+  <a href="https://github.com/guylepage3/copyright-update/blob/master/LICENSE">
+  MIT License</a>.
+</p>
