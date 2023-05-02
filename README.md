@@ -13,10 +13,9 @@
     </a>
   </p>
 </div>
-<br/>
+<br />
 
-
-## Table of contents
+### Table of contents
 
 - [Quick Start](#quick-start)
 - [Status](#status)
@@ -25,23 +24,26 @@
 - [Quick links](#quick-links)
 - [Maintainers](#maintainers)
 - [License](#license)
+<br />
+<br />
 
-
-## Quick start
+### Quick start
 
 A couple quick start options are available:
 
 - Install with [npm](https://www.npmjs.com/): `npm i copyright-update`.
 - Install with [yarn](https://yarnpkg.com/): `yarn add copyright-update`.
+<br />
+<br />
 
+### Status
 
-## Status
+[![version](https://img.shields.io/badge/dynamic/json.svg?label=copyright-update&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Fcopyright-update%2Fmaster%2Fpackage.json&query=%24.version&style=for-the-badge&colorA=%23000000&colorB=%23007BFF)](https://github.com/guylepage3/copyright-update)
+[![npm version](https://img.shields.io/npm/v/copyright-update.svg?style=for-the-badge&colorA=%23000000&colorB=%23CA0000)](https://www.npmjs.com/package/copyright-update)
+<br />
+<br />
 
-[![version](https://img.shields.io/badge/dynamic/json.svg?label=copyright-update&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Fcopyright-update%2Fmaster%2Fpackage.json&query=%24.version&style=for-the-badge&colorA=%23000000&colorB=%2300BB00)](https://github.com/guylepage3/copyright-update)
-[![npm version](https://img.shields.io/npm/v/copyright-update.svg?style=for-the-badge&colorA=%23000000&colorB=%23007BFF)](https://www.npmjs.com/package/copyright-update)
-
-
-## What's included
+### What's included
 
 `copyright-update` is a simple Reactjs component. Within the download you'll find the following directories and files:
 
@@ -50,9 +52,10 @@ copyright-update
 └── src/
     └── index.js
 ```
+<br />
+<br />
 
-
-## Usage
+### Usage
 
 Install the package.
 
@@ -88,15 +91,17 @@ Now simply style the component using the provided CSS classname `.copyright-upda
   margin-left: .5rem;
 }
 ```
+<br />
+<br />
 
-
-## Quick links
+### Quick links
 
 - Go to [`copyright-update` on GitHub](https://github.com/guylepage3/copyright-update)
 - Go to [`copyright-update` on NPM](https://www.npmjs.com/package/copyright-update)
+<br />
+<br />
 
-
-## Maintainers
+### Maintainers
 
 **Guy Lepage**
 
@@ -108,9 +113,10 @@ Now simply style the component using the provided CSS classname `.copyright-upda
 
 - <https://twitter.com/guylepage3>
 - <https://github.com/guylepage3>
+<br />
+<br />
 
-
-## License
+### License
 
 By contributing your code, you agree to license your contribution under the [
 MIT License](LICENSE).
