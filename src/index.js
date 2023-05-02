@@ -2,7 +2,7 @@ import React from "react";
 
 const CopyrightUpdate = () => {
   return (
-    <div className="copyright-update" style={{ display: 'inline-block' }}>
+    <div className="copyright-update">
       &copy; {new Date().getFullYear()}
     </div>
   );
