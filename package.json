@@ -1,6 +1,6 @@
 {
   "name": "copyright-update",
-  "version": "1.18.0",
+  "version": "1.19.0",
   "description": "A simple Reactjs component that updates copyright year",
   "keywords": [
     "copyright",
@@ -10,7 +10,7 @@
   ],
   "author": {
     "name": "Guy Lepage",
-    "email": "guylepage3@gmail.com"
+    "web": "https://guylepage.com"
   },
   "license": "MIT",
   "repository": {
@@ -24,18 +24,13 @@
     "build": "webpack --mode=none"
   },
   "dependencies": {
-    "@types/node": "^20.3.3",
-    "@types/react": "^18.2.14",
-    "react": "^18.2.0",
-    "typescript": "^5.1.6"
+    "react": "^18.2.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.22.6",
-    "@babel/core": "^7.22.6",
-    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
-    "@babel/plugin-transform-react-jsx": "^7.22.5",
-    "@babel/preset-env": "^7.22.6",
-    "babel-loader": "^9.1.2",
+    "@types/node": "^20.3.3",
+    "@types/react": "^18.2.14",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4",
     "webpack-node-externals": "^3.0.0"

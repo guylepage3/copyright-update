@@ -2,27 +2,28 @@ var path = require('path');
 var nodeExternals = require('webpack-node-externals');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/index.tsx',
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: 'index.js',
-    libraryTarget: 'commonjs2' // Don't forget to change.
+    filename: 'index.tsx',
+    libraryTarget: 'commonjs'
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(ts|tsx)$/,
         include: path.resolve(__dirname, 'src'),
-        exclude: /(node_modules|bower_components|build)/,
         use: {
-          loader: 'babel-loader',
+          loader: 'ts-loader',
           options: {
-            presets: ['@babel/preset-env'],
-            plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/plugin-transform-react-jsx']
+            transpileOnly: true
           }
         }
       }
     ]
+  },
+  resolve: {
+    extensions: ['*', '.tsx', '.ts'],
   },
   target: 'node',
   externals: [

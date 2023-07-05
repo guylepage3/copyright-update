@@ -1,7 +1,7 @@
 <div align="center">
   <h3 align="center">copyright-update</h3>
   <p align="center">
-    A simple Reactjs component that updates copyright year.
+    A simple copyright year package.
   </p>
   <p align="center">
     <a href="https://github.com/guylepage3/copyright-update/issues/new?labels=&template=bug_report.md" alt="Report a Bug (copyright-update)">
@@ -44,7 +44,7 @@
 <div>
   <h3>What's included</h3>
   <p>
-    <code>copyright-update</code> is a simple Reactjs component. Within the download you'll find the following directories and files:
+    <code>copyright-update</code> is a super simple component. Within the download you'll find the following directories and files:
   </p>
 <pre>
 copyright-update
